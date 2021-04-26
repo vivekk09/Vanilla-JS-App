@@ -1,7 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
+var output_text = document.querySelector("#output");
 
 btnTranslate.addEventListener("click", function clickEventHandler() {
-  console.log("clicked");
-  console.log(txtInput.value);
+  output_text.innerText = "asdddand" + txtInput.value;
 });
